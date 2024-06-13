@@ -1,0 +1,49 @@
+.logout {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.logout button {
+  padding: 5px 10px;
+  background-image: linear-gradient(90deg, rgb(102 33 101) 0%, rgb(64 58 185) 19%, rgb(189 38 188) 52%, #dd59db 100%);
+  color: white;
+  font-size: 14px;
+  font-weight: 800;
+  border: none;
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+  max-height: 40px;
+  justify-content: center;
+
+}
+
+.logout button:hover {
+  box-shadow: 0 0 10px 3px #8f2e8d;
+}
+
+.logout button:active {
+  box-shadow: 0 3px rgb(63 56 205);
+  transform: translateY(2px);
+}
+
+.logout a {
+  color: #1890FF;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.logout a:hover {
+  color: white;
+}
+
+.login {
+  color: #1890FF;
+  font-size: 20px;
+  font-weight: 900;
+  margin: 1px;
+}
